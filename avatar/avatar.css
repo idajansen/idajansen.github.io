@@ -1,0 +1,41 @@
+#header {
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    height: 200px;
+    background: rgb(248, 230, 124); 
+    background: linear-gradient(to bottom right,  rgb(248, 230, 124), rgb(247, 172, 74)); /* detta gjør at fargen går gradvis over i ein aen */
+    }
+
+    #overskrift {
+    position: absolute;
+    left: 35%;
+    width: 25%;
+    height: 10%;
+    top: 7%;
+    text-align: center;
+    } 
+
+    #main {
+    position: absolute;
+    height: 55%;
+    width: 80%;
+    left: 5%;
+    top: 30%;
+    }
+    
+    #avatar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    }
+        
+    #avatar > div {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 18px;
+    }

@@ -38,7 +38,7 @@ function setup() {
 ref.on("child_added", visKunder);
 }
 let divListe2 = document.getElementById("liste");
-let ref2 = firebase.database().ref("dyr")
+let ref2 = firebase.database().ref("dyr");
 
 function visDyr (snapshot) {
     let land = snapshot.val();
@@ -65,4 +65,3 @@ function visDyr(snapshot) {
     `;
 }
 ref2.on("child_added", visKunder);
-}

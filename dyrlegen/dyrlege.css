@@ -2,7 +2,7 @@
     --fyll:10px;
 }
 header {
-    color:green;
+    color:rgb(0, 98, 128);
     font-size: 1.2em;
     padding: var(--fyll);
     padding-bottom: 20px;
@@ -13,12 +13,17 @@ font-size: 1.1em;
 padding: var(--fyll);
 }
 
-#liste {
-    width:90vw;
+#dyr {
+    width:45vw;
     min-height: 50vh;
-    border: 2px solid red;
+    border: 3px double rgb(1, 11, 97);
+   
 }
 
 .land {
     background-color: whitesmoke
+}
+
+li:nth-child(2) {
+    background: rgb(188, 230, 255);
 }
