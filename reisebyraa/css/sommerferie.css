@@ -1,0 +1,138 @@
+#header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 45%;
+    background:#D1F3FF;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#meny{
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgba(211, 211, 211, 0.349);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(211, 211, 211, 0.466);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+#inn {
+    position: absolute;
+    height: 90%;
+    top: 47%;
+    width: 98%;
+    left: 1%;
+    background: rgb(216, 212, 212);
+}
+
+#innhold .tilbud1 {
+position: absolute;
+top: 16%;
+width: 30%;
+height: 54%;
+background:#FFFFFF;
+text-align: center;
+left: 3%;
+border: 3px solid black;
+}
+
+#innhold .tilbud2 {
+position: absolute;
+top: 16%;
+width: 30%;
+height: 54%;
+background:#FFFFFF;
+text-align: center;
+left: 35%;
+border: 3px solid black;
+}
+
+#innhold .tilbud3 {
+position: absolute;
+top: 16%;
+width: 30%;
+height: 54%;
+background:#FFFFFF;
+text-align: center;
+left: 67%;
+border: 3px solid black;
+}
+
+#skjema {
+position: absolute;
+bottom: 1%;
+width: 41%;
+height: 25%;
+background:#FFFFFF;
+text-align: center;
+left: 30%;
+border: 3px solid black;
+}
+
+#bunn {
+position: absolute;
+bottom: -60%;
+width: 100%;
+height: 20%;
+left: 0%;
+background: rgba(212, 206, 206, 0.712);
+}

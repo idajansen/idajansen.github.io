@@ -1,0 +1,57 @@
+#main form div {
+    width: 10em;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-gap: 1em;
+    margin: 2px;
+}
+
+#main form div div {
+    white-space: nowrap;
+}
+
+#main {
+    width: 49vw;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#sonic {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 49vw;
+    height: 100vw;
+}
+
+#sprite {
+    position: absolute;
+    width: 32px;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+    background-image: url("sonic.png");
+    background-position-x: 0px;
+    background-position-y: -45px;
+}
+
+#sprite {
+    animation: step 500ms linear infinite steps(8);
+}
+
+@keyframes walk {
+    0% { left: 0px; top: 0px;}
+    100% { left:40vh; top:80vh; }
+}
+
+@keyframes step {
+    0% { background-position-x: 0px; }
+    12.5% { background-position-x: 0px; }
+    25% { background-position-x: 0px; }
+    37.5% { background-position-x: 0px; }
+    50% { background-position-x: 0px; }
+    62.5% { background-position-x: 0px; }
+    75% { background-position-x: 0px; }
+    100% { background-position-x:360px }
+}

@@ -1,0 +1,19 @@
+#main {
+    position: relative;
+}
+
+#fig {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 137px;
+    height: 162px;
+    background-image: url("stickman.png");
+    background-position-x: 0px;
+    background-position-y: 0px; 
+    animation: legs 2000ms steps(8) infinite; 
+}
+
+@keyframes legs {
+    100% {background-position-x: -956px }
+}

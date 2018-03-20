@@ -1,0 +1,36 @@
+#bilder {
+    display: flex;
+}
+
+.bilde {
+    background-size: contain;
+    background-position: center; 
+    min-height: 200px;
+    background-repeat: no-repeat;
+    filter: sepia(80%);
+    flex: 1;
+    transition: 2s;
+}
+
+.bilder:hover {
+    filter: sepia(0%);
+    flex: 8;
+}
+
+
+
+div.bilde:nth-child(1) {
+    background-image: url("bilder/b1.jpg");
+}
+
+div.bilde:nth-child(2) {
+    background-image: url("bilder/b2.jpg");
+}
+
+div.bilde:nth-child(3) {
+    background-image: url("bilder/b3.jpg");
+}
+
+div.bilde:nth-child(4) {
+    background-image: url("bilder/b4.jpg");
+}
